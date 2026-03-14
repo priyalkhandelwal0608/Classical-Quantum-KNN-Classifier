@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quantum vs Classical KNN</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="hero">
+        <h1>⚛️ Quantum vs Classical KNN</h1>
+        <p>Upload your dataset or explore the Iris demo</p>
+    </div>
+
+    <div class="container">
+        <section class="upload">
+            <form method="POST" enctype="multipart/form-data" class="upload-form">
+                <label class="file-label">
+                    <input type="file" name="file" accept=".csv">
+                    <span>📂 Choose CSV File</span>
+                </label>
+                <button type="submit" class="btn primary">🚀 Upload & Run</button>
+            </form>
+            <form method="POST">
+                <button type="submit" name="demo" class="btn secondary">🌸 Run Iris Demo</button>
+            </form>
+            <a href="{{ url_for('download_sample') }}" class="btn sample">📥 Download Sample CSV</a>
+        </section>
+
+        {% if error_message %}
+        <section class="error">
+            <div class="error-box">
+                <h3>🚫 Dataset Error</h3>
+                <p>{{ error_message }}</p>
+                <p class="hint">Hint: Ensure your CSV has only numeric features and the last column is the target labels.</p>
+            </div>
+        </section>
+        {% endif %}
+
+        {% if classical_acc is not none and quantum_acc is not none %}
+        <section class="results">
+            <div class="card glass classical">
+                <h3>🧮 Classical KNN Accuracy</h3>
+                <p class="score">{{ classical_acc }}</p>
+            </div>
+            <div class="card glass quantum">
+                <h3>⚛️ Quantum KNN Accuracy</h3>
+                <p class="score">{{ quantum_acc }}</p>
+            </div>
+        </section>
+        {% endif %}
+
+        <footer>
+            <p>Built with Flask, Qiskit, and ❤️ for Machine Learning</p>
+        </footer>
+    </div>
+</body>
+</html>
