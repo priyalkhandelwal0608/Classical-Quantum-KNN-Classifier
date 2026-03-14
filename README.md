@@ -32,3 +32,4 @@ Classical-Quantum-KNN-Classifier/
 ├── requirements.txt        # Python dependencies (Flask, NumPy, Pandas, scikit-learn, Qiskit, etc.)
 ├── README.md               # Project documentation (overview, usage, dataset format)
 ├── Procfile                # For deployment (Heroku/Render/Railway)
+└── .gitignore              # Ignore venv, __pycache__, and other unnecessary files
