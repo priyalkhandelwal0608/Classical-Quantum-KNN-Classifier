@@ -15,21 +15,4 @@ This project showcases how quantum algorithms can be applied to machine learning
 
 ---
 
-##  Project Structure
-Classical-Quantum-KNN-Classifier/
-│
-├── app.py                  # Flask entry point: routes, dataset upload, demo mode
-├── quantum_knn.py          # Classical & Quantum KNN implementations (Qiskit + scikit-learn)
-│
-├── templates/              # HTML templates for Flask
-│   └── index.html          # Main frontend page (upload form, results cards)
-│
-├── static/                 # Static assets (CSS, JS, images)
-│   └── style.css           # Styling for the web interface
-│
-├── uploads/                # Folder to store user-uploaded CSV datasets
-│
-├── requirements.txt        # Python dependencies (Flask, NumPy, Pandas, scikit-learn, Qiskit, etc.)
-├── README.md               # Project documentation (overview, usage, dataset format)
-├── Procfile                # For deployment (Heroku/Render/Railway)
-└── .gitignore              # Ignore venv, __pycache__, and other unnecessary files
+
