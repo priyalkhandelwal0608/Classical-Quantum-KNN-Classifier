@@ -14,14 +14,17 @@ This project showcases how quantum algorithms can be applied to machine learning
 -  **Downloadable sample dataset** to test the app instantly.
 
 ---
-##  Project structure
-CLASSICAL QUANTUM KNN CL.../
-├── static/               # CSS, JavaScript, and static images for the web UI
-├── templates/            # HTML files (likely for Flask or Django)
-├── uploads/              # Folder to store user-uploaded files or data
-├── app.py                # Main application entry point (the web server)
-├── quantum_knn.py        # Core logic for the Quantum K-Nearest Neighbors model
-├── requirements.txt      # List of Python dependencies (pandas, faiss, etc.)
-└── __pycache__/          # Compiled Python files (automatically generated)
 
+
+##  Project Structure
+
+```text
+.
+├── static/                # CSS, JavaScript, and UI assets
+├── templates/             # HTML files for the web interface (Flask)
+├── uploads/               # Directory for user-provided data files
+├── app.py                 # Main entry point for the Flask web application
+├── quantum_knn.py         # Core logic for the Quantum-inspired KNN model
+├── requirements.txt       # Python dependencies (Pandas, Scikit-Learn, FAISS, etc.)
+└── __pycache__/           # Compiled Python files (ignored by Git)
 
