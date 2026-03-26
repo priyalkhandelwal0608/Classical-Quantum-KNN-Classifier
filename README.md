@@ -22,6 +22,9 @@ This project showcases how quantum algorithms can be applied to machine learning
 - **Visualization (optional):** Matplotlib for plotting distances or results  
 
 ---
+## Installation and  dependencies
+-pip install -r requirements.txt
+-python app.py
 
 ##  Project Structure
 
