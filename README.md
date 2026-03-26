@@ -27,12 +27,12 @@ This project showcases how quantum algorithms can be applied to machine learning
 
 To set up the project, run the following commands:
 
-```bash
-# Install required Python packages
-pip install -r requirements.txt
 
-# Run the application
+pip install -r requirements.txt
 python app.py
+
+
+
 ---
 ## **Project Structure**
 
