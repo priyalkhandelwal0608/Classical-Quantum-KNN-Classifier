@@ -23,8 +23,8 @@ This project showcases how quantum algorithms can be applied to machine learning
 
 ---
 ## Installation and  dependencies
--pip install -r requirements.txt
--python app.py
+-*pip install -r requirements.txt
+-*python app.py
 
 ##  Project Structure
 
