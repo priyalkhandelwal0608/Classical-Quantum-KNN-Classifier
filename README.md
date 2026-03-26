@@ -37,10 +37,10 @@ python app.py
 
 ```text
 .
-├── **static/**                # CSS, JavaScript, and UI assets
-├── **templates/**             # HTML files for the web interface (Flask)
-├── **uploads/**               # Directory for user-provided data files
-├── **app.py**                 # Main entry point for the Flask web application
-├── **quantum_knn.py**         # Core logic for the Quantum-inspired KNN model
-├── **requirements.txt**       # Python dependencies (Pandas, Scikit-Learn, FAISS, etc.)
-└── **__pycache__/**           # Compiled Python files (ignored by Git)
+├── static/                # CSS, JavaScript, and UI assets
+├── templates/             # HTML files for the web interface (Flask)
+├── uploads/               # Directory for user-provided data files
+├── app.py                 # Main entry point for the Flask web application
+├── quantum_knn.py         # Core logic for the Quantum-inspired KNN model
+├── requirements.txt       # Python dependencies (Pandas, Scikit-Learn, FAISS, etc.)
+└── __pycache__/           # Compiled Python files (ignored by Git)
