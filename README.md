@@ -14,7 +14,14 @@ This project showcases how quantum algorithms can be applied to machine learning
 -  **Downloadable sample dataset** to test the app instantly.
 
 ---
+## Tech Stack
 
+- **Quantum Computing:** Qiskit, Qiskit Aer Simulator  
+- **Backend & Data Processing:** Python 3.x, NumPy  
+- **Machine Learning:** Scikit-Learn (KNeighborsClassifier)  
+- **Visualization (optional):** Matplotlib for plotting distances or results  
+
+---
 
 ##  Project Structure
 
